@@ -21,13 +21,11 @@ namespace ypr1
         return firstName + " " + lastName + " (" + gender + "), age " + age;
       }
     }
-    static void Main(string[] args)
-    {
       static void Main(string[] args)
       {
         Person p = new Person("Tony", "Allen", 32, Person.Genders.Male);
         Console.WriteLine(p.ToString());
       }
     }
-  }
-}
+ }
+
